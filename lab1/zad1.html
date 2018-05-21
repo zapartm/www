@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zadanie 1</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">			
+	</head>
+	
+	<body>
+		<div class="navbar">
+			<table style="width: 100%; height: 100%">
+				<tr>
+					<td style="padding-top:10px; font-size: 25px;">Test site  </td>
+					<td style="align: right; width: 80px;"> 
+						<a href="">
+							<img id="CapybaraImage" src="capybara.jpg" alt="Capybara">
+						</a>
+					</td>
+				</tr>
+				<tr style="height: 100%; vertical-align: bottom;">
+					<td></td>
+					<td><a href="">Link</a></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="main">
+			<div>
+				<form action="http://google.com">
+					<table class="tab">
+						<tr>
+							<td>
+								<b>Cards</b>&nbsp &nbsp
+								<label for="cards"> Odd </label>
+								<input class="checkbox" type="checkbox" name="cards" value="odd" id="checkbox1"> &nbsp&nbsp
+								
+								<label for="cards"> Even </label>
+								<input class="checkbox" type="checkbox" name="cards" value="even" id="checkbox2"> 
+							</td>
+						</tr>
+						<tr>
+							<td style="width: auto">
+								<b>Title</b>&nbsp &nbsp
+								<input class="textInput" type="text" name="title">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Start time</b>&nbsp &nbsp
+								<input class="textInput" type="time" name="startdate">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>End time</b>&nbsp &nbsp
+								<input class="textInput" type="time" name="endtime">
+							</td>
+						</tr>
+						<tr>
+							<td><input id="submitButton" type="submit" value="Filter"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			
+			<div class="header">
+				First block
+			</div>
+			
+			<div>
+				<table class="datatable">
+					<tr>
+						<th>Product</th>
+						<th>Price</th>
+						<th>Count</th>
+					</tr>
+					<tr>	
+						<td>Eggs</td>
+						<td>$0.2</td>
+						<td>5</td>
+					</tr>
+					<tr>	
+						<td>Milk</td>
+						<td>$2</td>
+						<td>2</td>
+					</tr>
+					<tr>	
+						<td>Spam</td>
+						<td>$1</td>
+						<td>3</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="header">
+				Test block
+			</div>
+			
+			<div>
+				<table class="datatable">
+					<tr>
+						<th>Product</th>
+						<th>Price</th>
+						<th>Count</th>
+					</tr>
+					<tr>	
+						<td>Eggs</td>
+						<td>$0.2</td>
+						<td>5</td>
+					</tr>
+					<tr style="text-align: center">	
+						<td colspan="3">Item not available</td>
+					</tr>
+					<tr>	
+						<td>Spam</td>
+						<td>$1</td>
+						<td>3</td>
+					</tr>
+					<tr style="text-align: right;">	
+						<td colspan="3">Sum: $1.2</td>
+					<tr>
+				</table>
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>
+

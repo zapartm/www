@@ -1,0 +1,89 @@
+﻿body {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#searchBox {
+    position: fixed;
+    width: 100%;
+    height: 25%;
+    background-color: antiquewhite;
+    padding: 0px 20px;
+    top: 0px;
+}
+
+#travels {
+    position: fixed;
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    padding: 0px 20px;
+    bottom: 0px;
+}
+
+.travel {
+    display: block;
+    float: left;
+    margin: 5px 10px 5px 0px;
+    border: 2px solid black;
+    padding: 0px 8px 6px 8px;
+    width: 240px;
+    background-color: #E5CEA2;
+}
+
+.travel .name {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.travel .price, .travel .destination {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#travelDetails {
+    width: 640px;
+    height: auto;
+    background-color: bisque;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: relative;
+    padding: 5px 15px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#travelDetails .title {
+    text-align: center;
+    font-size: 28px; 
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+#travelDetails .price, #travelDetails .destination, #travelDetails .description {
+    font-size: 18px;
+    text-align: left;
+}
+
+#travelDetails input {
+    display: block;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#error {
+    color: red;
+    font-size: 24px;
+    padding: 20px;
+}

@@ -1,0 +1,49 @@
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%;
+}
+
+div#props {
+	background-color: #ff9900;
+	width: 100%;
+	height: 40%;
+}
+
+div#shade {
+	display: inline-block;
+	height : 60%;
+	width : 50%;
+	background-color: #999966;
+}
+
+div#control-panel {
+	display: inline-block;
+	height : 60%;
+	width : 50%;
+	float: right;
+	background-color: #ff0000;
+}
+
+div#control-panel * {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+div.celebrity {
+	display: inline-block;
+	border-style: solid;
+	margin: 5px 5px 5px 5px;
+	border-width: 5px;
+	height: 100px;
+	width: 80px;
+	background-color: white;
+}
+
+div.female {
+	border-radius: 10px;
+}
+
+
+	

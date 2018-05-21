@@ -1,0 +1,130 @@
+			
+			body {
+				margin: 0;
+				padding: 0;
+			}
+			div.main {
+				text-decoration: none;
+				background-color: #ebebe0;
+				width: auto;
+				height: 100%;
+				margin-left: 180px;
+				padding: 0;
+			}
+				
+			table.tab td {
+				width: 200px;
+				padding-top: 20px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+			}
+		
+			div.navbar {
+				position: fixed;
+				overflow: hidden;
+				top: 0;
+				left: 0;
+				background-color: white;
+				height: 100%;
+				width: 180px;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.textInput {
+				border: 0px;
+				border-bottom: 1px;
+				border-bottom-color: #ff9933;
+				border-bottom-style: solid;
+				background-color: #ebebe0;
+			}
+			
+						
+			#CapybaraImage {
+				width: 70px; 
+				height: 70px; 
+				opacity: 0.2;				
+				border-style: rounded;
+			}
+			
+			#CapybaraImage:hover {
+				opacity: 1.0;
+			}
+			
+			#submitButton {
+				border: 0;
+				background-color: #ff9933;
+				height: 34px;
+				width: 50px;
+			}
+			
+			input[type="checkbox"] {
+				visibility: hidden;
+			}
+			
+			input[type="checkbox"]:after {
+				visibility: visible;
+				border-color: #ff9933;
+				background-color: white;
+			}
+			
+			input[type="checkbox"]:checked:after {
+				border-color: #ff9933;
+				background-color: #ff9933;
+			}
+			
+			a {
+				text-decoration: none;
+				text-align: right;
+				font-size: 25px;
+				color: #ff9933;
+				vertical-align: bottom;
+				text-transform: uppercase;
+			}
+			
+			.header {
+				width: 100%;
+				padding-left: 25px;
+				padding-top: 10px;
+				font-size: 25px;
+			}
+			
+			.datatable {
+				width: 100%;
+				border: 0;
+				margin-top: 25px;
+			}
+			
+			.datatable tr:nth-child(odd) {
+				background-color: white;
+			}
+			.datatable th {
+				text-align: right;
+				border-bottom-color: DimGrey;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			.datatable th:nth-child(1) {
+				text-align: left;
+				border-bottom-color: DimGrey;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			
+			.datatable td {
+				text-align: right;
+				width: 35%;
+				padding-right: 15px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			.datatable td:nth-child(1) {
+				text-align: left;
+				width: 30%;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			
+			
+			
+			
